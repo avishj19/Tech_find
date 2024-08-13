@@ -1,0 +1,88 @@
+
+nav {
+    background-color: rgb(0, 0, 104);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+   
+    
+}
+body{
+    background-color:#579ff7;
+    margin: 0px;
+    height: 200vh;
+
+}
+.Home{
+    color:white; 
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.resource{
+    color:white; 
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.Chatbox{
+    color:white; 
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+img {
+    width: 70px;
+}
+
+#logo{
+    position: absolute;
+    left: 50px;
+    top: 4px;
+    border-radius: 50%;
+}
+#statment{
+    color: white;
+    font-size: 25px;
+    border-style: dashed;
+    border-color: darkblue;
+    position: absolute;
+    width: 500px;
+    top: 700px;
+    left: 300px;
+
+   
+}
+#headerPic{
+    position: absolute;
+    width: 500px;
+    top: 130px;
+    left: 750px;
+}
+#bigText{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    font-size: 60px;
+}
+#smallText{
+    position: absolute;
+    left: 260px;
+    top: 285px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+#codingImg{
+    position: absolute;
+    top: 700px;
+    left: 1000px;
+    width: 200px;
+    border-style: dashed;
+    border-color: darkblue;
+
+    
+}

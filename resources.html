@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <script src="script.js" defer></script>
+    <script src="Form.js"  defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <img id = "logo" src="logo.png">
+        <a href="index.html"> <div class="Home">Home</div></a>
+        <a href="resources.html"> <div class="Find your resource">resources</div> </a>
+        <a href=""> <div class="Chatbox">chat</div> </a>
+
+    </nav>
+
+    <h1>Find the resouces</h1>
+    <br>
+    <br>
+
+    <h3> fill out the form</h3>
+    <div class="form-container">
+        <form id="coding-resources-form">
+            <!-- Question 1 -->
+            <div class="form-group">
+                <label for="language">What language do you want to learn?</label>
+                <br>
+                <input type="radio" id="java" name="language" value="Java">
+                <label for="java">Java</label><br>
+                <input type="radio" id="python" name="language" value="Python">
+                <label for="python">Python</label><br>
+                <input type="radio" id="html" name="language" value="HTML">
+                <label for="html">HTML</label>
+            </div>
+            <br>
+            <br>
+
+            <!-- Question 2 -->
+            <div class="form-group">
+                <label for="level">What is your current skill level?</label>
+                <br>
+                <input type="radio" id="beginner" name="level" value="Beginner">
+                <label for="beginner">Beginner</label><br>
+                <input type="radio" id="intermediate" name="level" value="Intermediate">
+                <label for="intermediate">Intermediate</label><br>
+                <input type="radio" id="advanced" name="level" value="Advanced">
+                <label for="advanced">Advanced</label>
+            </div>
+            <br>
+            <br>
+
+            <button type="submit" id="submit">Submit</button>
+        </form> 
+    </div>
+    
+</body>
+</html>
