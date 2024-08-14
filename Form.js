@@ -12,30 +12,30 @@ document.getElementById('submit').addEventListener('click', function(event) {
         let level = levelElement.value;
         
         if (language === "Python" && level === "Beginner") {
-            window.location.href = "/Python_beginner.html";
+            window.location.href = "/Tech_find/Python_beginner.html";
         } else if (language === "Python" && level === "Intermediate") {
-            window.location.href = "/python_intermediate.html";
+            window.location.href = "/Tech_find/python_intermediate.html";
         } else if (language === "Python" && level === "Advanced") {
-            window.location.href = "/python_advanced.html";
+            window.location.href = "/Tech_find/python_advanced.html";
         } 
         
         // Java strat here
 
         else if (language === "Java" && level === "Beginner") {
-            window.location.href =  "/java_beginner.html";
+            window.location.href =  "/Tech_find/java_beginner.html";
         } else if (language === "Java" && level === "Intermediate") {
-            window.location.href =  "/java_intermediate.html";
+            window.location.href =  "/Tech_find/java_intermediate.html";
 
         } else if (language === "Java" && level === "Advanced") {
-            window.location.href = "/java_advanced.html";
+            window.location.href = "/Tech_find/java_advanced.html";
         }
     
         // Html stars here
         else if (language === "HTML" && level === "Beginner") {
-            window.location.href = "/html_beginner.html";
+            window.location.href = "/Tech_find/html_beginner.html";
         }
         else if (language === "HTML" && level === "Intermediate") {
-            window.location.href = "/html_intermediate.html";
+            window.location.href = "/Tech_find/html_intermediate.html";
         } else if (language === "HTML" && level === "Advanced") {
             window.location.href = "/Tech_find/html_advanced.html";
         }
