@@ -1,4 +1,4 @@
-let images = ["java.png", "html.png", "python.png"]
+let images = ["Java.png", "html.png", "Python.png"]
 let img = document.getElementById("codingImg")
 
 let index = 0
