@@ -11,7 +11,8 @@ h1 {
 }
 
 h4 {
-    color:  #a66b30;
+    color:  #dfce91;
+    font-weight: bold;
 }
 
 p {
@@ -48,4 +49,42 @@ button {
 
 button:hover {
     background-color: #1558b0;
+}
+
+
+nav {
+    background-color: rgb(0, 0, 104);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+   
+    
+}
+
+.Home{
+    color:white; 
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.resource{
+    color:white; 
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.Chatbox{
+    color:white; 
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#logo{
+    position: absolute;
+    left: 55px;
+    top: 25px;
+    border-radius: 50%;
+    width: 70px;
 }

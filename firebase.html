@@ -1,0 +1,75 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- @NOTE linking our CSS -->
+    <link rel="stylesheet" href="firebase.css" />
+
+    <!-- @NOTE linking firebase version 8 CDNs first -->
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <!-- @NOTE initializing firebase -->
+    <script defer src="init-firebase.js"></script>
+
+    <!-- @NOTE link our main.js AFTER we load initialize firebase -->
+    <script defer src="firebase.js"></script>
+    <title>Chat Box</title>
+  </head>
+  <body>
+    <div id="chatbox-container">
+      <h1 id="title">Chat Box</h1>
+
+      <!-- @NOTE this is where we'll append messages -->
+      <div id="all-messages">
+        <!-- @NOTE sample message -->
+        <!-- <div class="single-message">
+                <p class="single-message-username">andymina:</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Doloremque laboriosam dignissimos molestias ad illum odio
+                    dolor beatae dolore! Possimus laborum culpa debitis at
+                    obcaecati sit assumenda, placeat delectus reiciendis
+                    accusamus!
+                </p>
+            </div> -->
+      </div>
+
+
+  <div id = "chatBox">
+      <div id="typing-container">
+        <form>
+          <!-- @NOTE this input has an id #username -->
+          <div class="input-container">
+            <label>Username:</label>
+            <input type="text" id="username" />
+          </div>
+
+          <!-- @NOTE this input has an id #message -->
+          <div class="input-container">
+            <label>Message:</label>
+            <input type="text" id="message" />
+          </div>
+        </form>
+
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div id = "navBox">
+    <nav>
+        <img id = "logo" src="logo.png">
+        <a href="index.html"> <div class="Home">Home</div></a>
+        <a href="resources.html"> <div class="resource">Resources</div> </a>
+        <a href="firebase.html"> <div class="Chatbox">Chat</div> </a>
+
+    </nav>
+  </div>
+
+
+  </body>
+</html>

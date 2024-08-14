@@ -31,12 +31,12 @@ document.getElementById('submit').addEventListener('click', function(event) {
         }
     
         // Html stars here
-        else if (language === "html" && level === "beginner") {
+        else if (language === "HTML" && level === "Beginner") {
             window.location.href = "/html_beginner.html";
         }
-        else if (language === "html" && level === "intermediate") {
+        else if (language === "HTML" && level === "Intermediate") {
             window.location.href = "/html_intermediate.html";
-        } else if (language === "html" && level === "advanced") {
+        } else if (language === "HTML" && level === "Advanced") {
             window.location.href = "/html_advanced.html";
         }
 

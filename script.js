@@ -1,4 +1,4 @@
-let images = ["java.png", "Js.png", "python.png"]
+let images = ["java.png", "html.png", "python.png"]
 let img = document.getElementById("codingImg")
 
 let index = 0
@@ -12,4 +12,4 @@ function changeImg() {
 
 }
 
-//setInterval(changeImg,5000)
+setInterval(changeImg,5000)
