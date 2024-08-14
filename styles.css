@@ -11,7 +11,7 @@ nav {
 body{
     background-color:#579ff7;
     margin: 0px;
-    height: 200vh;
+    height: 230vh;
 
 }
 .Home{
@@ -39,7 +39,7 @@ img {
 
 #logo{
     position: absolute;
-    left: 50px;
+    left: 55px;
     top: 4px;
     border-radius: 50%;
 }
@@ -50,10 +50,9 @@ img {
     border-color: darkblue;
     position: absolute;
     width: 500px;
-    top: 700px;
-    left: 300px;
-
-   
+    top: 730px;
+    left: 290px;
+    padding: 10px;
 }
 #headerPic{
     position: absolute;
@@ -64,25 +63,48 @@ img {
 #bigText{
     position: absolute;
     left: 300px;
-    top: 200px;
+    top: 210px;
     font-size: 60px;
 }
 #smallText{
     position: absolute;
     left: 260px;
-    top: 285px;
+    top: 310px;
     font-weight: bold;
     font-size: 20px;
-    
 }
-
 #codingImg{
     position: absolute;
-    top: 700px;
+    top: 750px;
     left: 1000px;
     width: 200px;
     border-style: dashed;
     border-color: darkblue;
-
-    
+}
+#pngPic{
+    position: absolute;
+    width: 650px;
+    top: 1250px;
+    left: 420px;
+}
+#textworld{
+    position: absolute;
+    top: 1210px;
+    left: 620px;
+    font-weight: bolder;
+    font-size:20px;
+}
+#line1{
+    border-style: solid;
+    width: 1000px;
+    position: absolute;
+    left: 270px;
+    top: 600px;
+}
+#line2{
+    border-style: solid;
+    width: 1000px;
+    position: absolute;
+    left: 300px;
+    top: 1070px;
 }

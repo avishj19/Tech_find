@@ -12,4 +12,4 @@ function changeImg() {
 
 }
 
-setInterval(changeImg,5000)
+//setInterval(changeImg,5000)

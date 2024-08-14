@@ -1,5 +1,6 @@
-document.getElementById('coding-resources-form').addEventListener('submit', function(event) {
+document.getElementById('submit').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent the form from submitting the traditional way
+
 
     // Capture the user's choices
     let languageElement = document.querySelector('input[name="language"]:checked');
@@ -9,34 +10,42 @@ document.getElementById('coding-resources-form').addEventListener('submit', func
     if (languageElement && levelElement) {
         let language = languageElement.value;
         let level = levelElement.value;
+        
+        if (language === "Python" && level === "Beginner") {
+            window.location.href = "/Python_beginner.html";
+        } else if (language === "Python" && level === "Intermediate") {
+            window.location.href = "/python_intermediate.html";
+        } else if (language === "Python" && level === "Advanced") {
+            window.location.href = "/python_advanced.html";
+        } 
+        
+        // Java strat here
 
-        // Define the link function inside the event listener
-        function link(event) {
-            event.preventDefault();
-            if (language === "Python" && level === "beginner") {
-                window.location.href = "/Python_beginner.html";
-            } else if (language === "Python" && level === "intermediate") {
-                window.location.href = "/python_intermediate.html";
-            } else if (language === "Python" && level === "advanced") {
-                window.location.href = "/python_advanced.html";
-            } 
-            
-            // Java strat here
+        else if (language === "Java" && level === "Beginner") {
+            window.location.href =  "/java_beginner.html";
+        } else if (language === "Java" && level === "Intermediate") {
+            window.location.href =  "/java_intermediate.html";
 
-            else if (language === "Java" && level === "beginner") {
-                window.location.href = "/java_beginner.html";
-            } else if (language === "Java" && level === "intermediate") {
-                window.location.href = "/java_intermediate.html";
-            } else if (language === "Java" && level === "advanced") {
-                window.location.href = "/java_advanced.html";
-            }
+        } else if (language === "Java" && level === "Advanced") {
+            window.location.href = "/java_advanced.html";
+        }
+    
+        // Html stars here
+        else if (language === "html" && level === "beginner") {
+            window.location.href = "/html_beginner.html";
+        }
+        else if (language === "html" && level === "intermediate") {
+            window.location.href = "/html_intermediate.html";
+        } else if (language === "html" && level === "advanced") {
+            window.location.href = "/html_advanced.html";
         }
 
+
         // Add event listener to the submit button
-        let submit = document.getElementById("submit");
-        submit.addEventListener("click", link);
+        // let submit = document.getElementById("submit");
+        // submit.addEventListener("click", link);
     } else {
-        console.log('Please make sure all questions are answered.');
+        alert('Please make sure all questions are answered.');
     }
 });
                                                              
