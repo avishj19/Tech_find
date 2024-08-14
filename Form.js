@@ -37,7 +37,7 @@ document.getElementById('submit').addEventListener('click', function(event) {
         else if (language === "HTML" && level === "Intermediate") {
             window.location.href = "/html_intermediate.html";
         } else if (language === "HTML" && level === "Advanced") {
-            window.location.href = "Tech_find/html_advanced.html";
+            window.location.href = "/Tech_find/html_advanced.html";
         }
 
 
