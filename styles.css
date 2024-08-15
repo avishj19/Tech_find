@@ -108,3 +108,10 @@ img {
     left: 300px;
     top: 1070px;
 }
+
+.form-container, h1, h3 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
